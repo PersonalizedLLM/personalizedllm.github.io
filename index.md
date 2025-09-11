@@ -10,6 +10,10 @@ permlink: /
 
 This is your new website. You can start adding your content here.
 
+## Upcoming Events
+
+- [PerFM: Personalized Foundation Models Workshop @ AAAI 2026](/events/perfm-aaai26/)
+
 ## Getting Started
 
 - Edit this file (`index.md`) to change the homepage content
