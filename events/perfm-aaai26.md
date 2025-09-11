@@ -1,5 +1,5 @@
 ---
-title: "PerFM Workshop @ AAAI 2026"
+title: "Personalization in the Era of Large Foundation Models\nWorkshop @ AAAI 2026"
 layout: page
 permalink: /events/perfm-aaai26/
 ---
@@ -114,7 +114,6 @@ Non-archival means the submissions are not formally published in proceedings.
 
 ## Contact
 Feel free to contact us: personalizationllm@outlook.com
-
 
 ## 8. Sponsors (TBA)
 
