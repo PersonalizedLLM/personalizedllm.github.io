@@ -1,10 +1,10 @@
 ---
 title: "PerFM: Personalized Foundation Models Workshop @ AAAI 2026"
 layout: page
-permlink: /events/perfm-aaai26/
+permalink: /events/perfm-aaai26/
 ---
 
-# PerFM: Personalized Foundation Models Workshop @ AAAI 2026
+# PerFM Workshop @ AAAI 2026
 
 - Date: TBA (2026)
 - Location: AAAI 2026
