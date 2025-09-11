@@ -11,8 +11,8 @@ permalink: /events/perfm-aaai26/
 <h2 style="color: #0366d6; font-size: 1.5em; font-weight: 600; margin: 0;">— Personalization for Foundation Models</h2>
 </div>
 
-<div style="color: blue; margin-bottom: 5ex;">
-<p style="font-weight: 600;">The Personalized Foundation Models (PerFM) Workshop will take place at AAAI 2026. We invite the community to discuss personalized learning paradigms for foundation models, including theory, methods, systems, and applications.</p>
+<div style="color: #0366d6; margin-bottom: 5ex;">
+<p style="font-weight: 600;">The Personalized Foundation Models (PerFM) Workshop will be held at AAAI 2026, Singapore EXPO. We warmly welcome researchers, practitioners, and industry professionals to join us in exploring cutting-edge personalized learning paradigms for foundation models, spanning theoretical foundations, novel methodologies, scalable systems, and real-world applications.</p>
 </div>
 
 <style>
@@ -44,8 +44,7 @@ PerFM Workshop @ AAAI 2026. Personalization for Foundation Models. Date TBA. Loc
 
 ## News
 
-- 2026-XX-XX: Website launched.
-- 2026-XX-XX: Call for Contributions released.
+- 2026-09-11: Website launched.
 
 ## 1. Workshop Introduction
 
@@ -114,7 +113,8 @@ TBA.
 Non-archival means the submissions are not formally published in proceedings.
 
 ## Contact
-Feel free to contact us: TBA
+Feel free to contact us: personalizationllm@outlook.com
+
 
 ## 8. Sponsors (TBA)
 
