@@ -1,0 +1,44 @@
+name: Jekyll site CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    # Step 1: Checkout the repository
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    # Step 2: Set up Ruby environment (required for Jekyll)
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.1' # Set to a compatible Ruby version
+        bundler-cache: true # Cache installed gems for faster builds
+
+    # Step 3: Install dependencies
+    - name: Install dependencies
+      run: |
+        bundle install
+
+    # Step 4: Build the Jekyll site
+    - name: Build the Jekyll site
+      run: |
+        bundle exec jekyll build --future
+
+
+    # Step 5: Deploy site artifacts
+    # Deploy to GitHub Pages using an access token or permissions
+    - name: Deploy to GitHub Pages
+      if: ${{ github.ref == 'refs/heads/main' }}
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }} # Ensure repo has "Read and Write" permissions
+        publish_dir: ./_site

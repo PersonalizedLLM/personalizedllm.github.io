@@ -6,15 +6,15 @@ permalink: /
 
 <link rel="stylesheet" href="/style.css">
 
-# Welcome to Your Website
+# Welcome to Our Website
 
-This is your new website. You can start adding your content here.
+This is the website for Personalized Foundation Models. 
 
 ## Upcoming Events
 
-- [PerFM: Personalized Foundation Models Workshop @ AAAI 2026](/events/perfm-aaai26/)
+- [PerFM: Personalization in the Era of Large Foundation Models Workshop @ AAAI 2026](/events/perfm-aaai26/)
 
-## Getting Started
+<!-- ## Getting Started
 
 - Edit this file (`index.md`) to change the homepage content
 - Add new pages in the root directory or create subdirectories
@@ -30,4 +30,4 @@ This template includes:
 - Jekyll static site generation
 - Custom CSS styling
 
-Start building your content!
+Start building your content! -->
