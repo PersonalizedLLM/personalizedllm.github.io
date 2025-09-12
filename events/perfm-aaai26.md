@@ -13,34 +13,27 @@ permalink: /events/perfm-aaai26/
 
 <div style="color: #0366d6; margin-bottom: 5ex;">
 
-<div class="sticky-outline">
-  <ul>
-    <li><a href="#news">📢 News</a></li>
-    <li><a href="#1-workshop-introduction">🎯 Workshop Introduction</a></li>
-    <li><a href="#2-call-for-contributions-topics-and-scope">📝 Call for Contributions</a></li>
-    <li><a href="#3-submissions-and-timeline">📅 Submissions and Timeline</a></li>
-    <li><a href="#4-tentative-schedule-tba">🗓️ Schedule</a></li>
-    <li><a href="#5-organizers">👥 Organizers</a></li>
-    <li><a href="#6-invited-speakers-and-panelists">🎤 Invited Speakers</a></li>
-    <li><a href="#7-faq">❓ FAQ</a></li>
-    <li><a href="#contact">📧 Contact</a></li>
-    <li><a href="#8-sponsors-tba">🏢 Sponsors</a></li>
-  </ul>
+
+<div class="sidebar-container">
+  <div class="sidebar" id="sidebar">
+    <button class="sidebar-toggle" id="sidebar-toggle" onclick="toggleSidebar()">◀</button>
+    <div class="sidebar-content">
+      <ul>
+        <li><a href="#news">📢 News</a></li>
+        <li><a href="#1-workshop-introduction">🎯 Workshop Introduction</a></li>
+        <li><a href="#2-call-for-contributions-topics-and-scope">📝 Call for Contributions</a></li>
+        <li><a href="#3-submissions-and-timeline">📅 Submissions and Timeline</a></li>
+        <li><a href="#4-tentative-schedule-tba">🗓️ Schedule</a></li>
+        <li><a href="#5-organizers">👥 Organizers</a></li>
+        <li><a href="#6-invited-speakers-and-panelists">🎤 Invited Speakers</a></li>
+        <li><a href="#7-faq">❓ FAQ</a></li>
+        <li><a href="#contact">📧 Contact</a></li>
+        <li><a href="#8-sponsors-tba">🏢 Sponsors</a></li>
+      </ul>
+    </div>
+  </div>
 </div>
-<div class="sticky-outline">
-  <ul>
-    <li><a href="#news">📢 News</a></li>
-    <li><a href="#1-workshop-introduction">🎯 Workshop Introduction</a></li>
-    <li><a href="#2-call-for-contributions-topics-and-scope">📝 Call for Contributions</a></li>
-    <li><a href="#3-submissions-and-timeline">📅 Submissions and Timeline</a></li>
-    <li><a href="#4-tentative-schedule-tba">🗓️ Schedule</a></li>
-    <li><a href="#5-organizers">👥 Organizers</a></li>
-    <li><a href="#6-invited-speakers-and-panelists">🎤 Invited Speakers</a></li>
-    <li><a href="#7-faq">❓ FAQ</a></li>
-    <li><a href="#contact">📧 Contact</a></li>
-    <li><a href="#8-sponsors-tba">🏢 Sponsors</a></li>
-  </ul>
-</div><p style="font-weight: 600;">The Personalization in the Era of Foundation Models (PerFM) Workshop will be held at <a href="https://aaai.org/conference/aaai/aaai-26/" target="_blank" rel="noopener noreferrer">AAAI 2026</a>, Singapore EXPO. We warmly welcome researchers, practitioners, and industry professionals to join us in exploring cutting-edge personalized learning paradigms for foundation models, spanning theoretical foundations, novel methodologies, scalable systems, and real-world applications.</p>
+
 </div>
 
 <style>
@@ -51,14 +44,62 @@ a { color: #0366d6 !important; font-weight: bold; }
 a:hover { color: #2222B2 !important; }
 /* Fix header font consistency */
 .site-nav .page-link { font-size: 26px !important; font-weight: 600 !important; line-height: 54px !important; }
-/* Optional sticky outline (not shown by default) */
-.sticky-outline { position: fixed; top: 80px; left: 20px; width: 180px; max-height: 60vh; overflow-y: auto; background: #ffffff; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 8px 6px; z-index: 1000; font-size: 0.7rem; text-align: left; }
-.sticky-outline ul { list-style: none; padding: 0; margin: 0; text-align: left; }
-.sticky-outline > ul > li { margin-bottom: 2px; text-align: left; }
-.sticky-outline li { margin-bottom: 1px; text-align: left; }
-.sticky-outline > ul > li > a { font-weight: 600; font-size: 0.9rem; padding: 1px 0; text-align: left; }
-.sticky-outline a { color: #0366d6; text-decoration: none; transition: color 0.2s; display: block; padding: 1px 0; text-align: left; font-weight: bold; }
-.sticky-outline a:hover { color: #2222B2; text-decoration: underline; text-align: left; }
+/* Sidebar Navigation */
+.sidebar-container {
+  position: fixed;
+  top: 100px;
+  left: 20px;
+  z-index: 1000;
+}
+
+.sidebar {
+  width: 220px;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.sidebar.collapsed {
+  width: 0px;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+}
+
+.sidebar-toggle {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #f6f8fa;
+  border: 1px solid #d1d5da;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: all 0.2s ease;
+  z-index: 1002;
+}
+
+.sidebar-toggle:hover {
+  background: #e1e4e8;
+}
+
+.sidebar.collapsed .sidebar-toggle {
+  position: fixed;
+  top: 108px;
+  left: 20px;
+  right: auto;
+}
+
+.sidebar li { margin-bottom: 1px; text-align: left; }
+.sidebar > div > ul > li > a { font-weight: 600; font-size: 0.9rem; padding: 1px 0; text-align: left; }
+.sidebar a { color: #0366d6; text-decoration: none; transition: color 0.2s; display: block; padding: 1px 0; text-align: left; font-weight: bold; }
+.sidebar a:hover { color: #2222B2; text-decoration: underline; text-align: left; }
 /* Enhanced icon styles */
 .highlight-icon { color: #0366d6; font-weight: bold; margin-right: 8px; font-size: 1.1em; }
 .important-dates { 
@@ -101,10 +142,29 @@ a:hover { color: #2222B2 !important; }
 </style>
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-  // 获取所有锚点链接
-  const anchorLinks = document.querySelectorAll(".sticky-outline a[href^="#"]");
+// Simple toggle function
+function toggleSidebar() {
+  const sidebar = document.getElementById('sidebar');
+  const toggleBtn = document.getElementById('sidebar-toggle');
   
+  console.log('Toggle clicked');
+  
+  if (sidebar.classList.contains('collapsed')) {
+    sidebar.classList.remove('collapsed');
+    toggleBtn.innerHTML = '◀';
+    console.log('Sidebar expanded');
+  } else {
+    sidebar.classList.add('collapsed');
+    toggleBtn.innerHTML = '▶';
+    console.log('Sidebar collapsed');
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  console.log("DOM loaded");
+  
+  // Smooth scroll functionality
+  const anchorLinks = document.querySelectorAll('.sidebar a[href^="#"]');
   anchorLinks.forEach(link => {
     link.addEventListener("click", function(e) {
       e.preventDefault(); // 阻止默认行为
@@ -208,7 +268,7 @@ memory persistence, catastrophic forgetting prevention, evolving user preference
 </div>
 
 <div class="callout-box">
-<h3 style="margin-top: 0; margin-bottom: 15px;">💡 Submission Guidelines</h3>
+<h3 style="margin-top: 0; margin-bottom: 15px;">🔥 Submission Guidelines</h3>
 
 <ul>
 <li>Use the <a href="https://aaai.org/authorkit26-1/" target="_blank">AAAI 2026 style file</a> for formatting. </li>
