@@ -8,7 +8,7 @@ permalink: /events/perfm-aaai26/
 <link rel="stylesheet" href="/assets/aaai2026.css">
 
 <div style="text-align: right; margin-top: -3.5em; margin-bottom: 2em;">
-<h2 style="color: #0366d6; font-size: 1.5em; font-weight: 600; margin: 0;">— Shaping the Next Generation of AI Systems</h2>
+<h2 style="color: #0366d6; font-size: 1.5em; font-weight: 600; margin: 0;"><img src="/icon.png" alt="icon" class="subtitle-icon">  — Shaping the Next Generation of AI Systems</h2>
 </div>
 
 <div style="color: #0366d6; margin-bottom: 5ex;">
@@ -102,6 +102,7 @@ a:hover { color: #2222B2 !important; }
 .sidebar a:hover { color: #2222B2; text-decoration: underline; text-align: left; }
 /* Enhanced icon styles */
 .highlight-icon { color: #0366d6; font-weight: bold; margin-right: 8px; font-size: 1.1em; }
+.subtitle-icon { display: inline-block; width: 30px; height: 30px; vertical-align: middle; margin-right: 6px; background: none; border: 0; box-shadow: none; border-radius: 0; }
 .important-dates { 
   background: linear-gradient(135deg, #f8f9ff 0%, #e8f2ff 100%); 
   padding: 20px; 
