@@ -12,7 +12,7 @@ This is the website for Personalized Foundation Models.
 
 ## Upcoming Events
 
-- [PerFM: Personalization in the Era of Large Foundation Models Workshop @ AAAI 2026](/events/perfm-aaai26/)
+- [PerFM: Personalization in the Era of Large Foundation Models Workshop @ AAAI 2026](/events/perfm-aaai26/){: target="_blank"}
 
 <!-- ## Getting Started
 

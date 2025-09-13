@@ -192,7 +192,7 @@ document.addEventListener("DOMContentLoaded", function() {
  <div class="banner-text">
 PerFM Workshop @ AAAI 2026 
 Personalization for Foundation Models  
-Date January 27, 2026. Location TBA.
+January 27, 2026
  </div>
 </div>
 
@@ -204,8 +204,8 @@ Date January 27, 2026. Location TBA.
 </div>
 
 - 🎉  **2025-09-11**: Website launched and call for contributions open!
-- **Submit your paper:** 🔥🔥🔥 [<span style="color: #8B0000; font-weight: bold;">OpenReview</span>](https://openreview.net/group?id=AAAI.org/2026/Workshop/PerFM)
-- Welcome to join our <img src="/images/slack.png" alt="Slack" style="width: 15px; height: 15px; vertical-align: middle; margin-right: 5px;"> [Slack workspace](https://join.slack.com/t/personalized-llm/shared_invite/zt-3de9e5pjl-iq_e9jb1cu_pYBAh1ickOA)
+- **Submit your paper:** 🔥🔥🔥 [<span style="color: #8B0000; font-weight: bold;">OpenReview</span>](https://openreview.net/group?id=AAAI.org/2026/Workshop/PerFM){: target="_blank"}
+- Welcome to join our <img src="/images/slack.png" alt="Slack" style="width: 15px; height: 15px; vertical-align: middle; margin-right: 5px;"> [Slack workspace](https://join.slack.com/t/personalized-llm/shared_invite/zt-3de9e5pjl-iq_e9jb1cu_pYBAh1ickOA){: target="_blank"}
 
 <div class="section-header" id="1-workshop-introduction">
   <span class="highlight-icon">🎯</span><a id="1-workshop-introduction"></a>
@@ -260,7 +260,7 @@ memory persistence, catastrophic forgetting prevention, evolving user preference
 
 
 <div class="important-dates" style="padding-top: 15px;">
-<h3 style="margin-top: 0; margin-bottom: 15px;">⏰ Important Dates</h3>
+<h3 style="margin-top: 0; margin-bottom: 15px;">⏰ Important Dates <span style="font-size: 0.8em; color: #666;">(AoE Time)</span></h3>
 
 <ul>
 <li><strong>Abstract submission deadline</strong>: October 17, 2025</li>
@@ -312,27 +312,27 @@ memory persistence, catastrophic forgetting prevention, evolving user preference
  <tr>
   <td> 
  <img src="/images/people/jiahong.jpg" alt="1" width=200px height=200px><br/>
- <a href="https://misc-lab.cse.cuhk.edu.hk/sciencex_teams/jiahong-liu/">Jiahong Liu</a><br/>
+ <a href="https://misc-lab.cse.cuhk.edu.hk/sciencex_teams/jiahong-liu/" target="_blank" rel="noopener noreferrer">Jiahong Liu</a><br/>
  CUHK
  </td>
    <td> 
  <img src="/images/people/zhangyang.jpg" alt="1" width=200px height=200px><br/>
- <a href="http://home.ustc.edu.cn/~zy2015/">Yang Zhang</a><br/>
+ <a href="http://home.ustc.edu.cn/~zy2015/" target="_blank" rel="noopener noreferrer">Yang Zhang</a><br/>
  NUS
  </td>
     <td> 
  <img src="/images/people/weizhi.jpg" alt="1" width=200px height=200px><br/>
- <a href="https://davidzwz.github.io/">Weizhi Zhang</a><br/>
+ <a href="https://davidzwz.github.io/" target="_blank" rel="noopener noreferrer">Weizhi Zhang</a><br/>
  UIC
  </td>
     <td> 
  <img src="/images/people/runcong.png" alt="1" width=200px height=200px><br/>
- <a href="https://sites.google.com/view/runcongzhao/home">Runcong Zhao</a><br/>
+ <a href="https://sites.google.com/view/runcongzhao/home" target="_blank" rel="noopener noreferrer">Runcong Zhao</a><br/>
  KCL
  </td>
     <td> 
  <img src="/images/people/lucas.png" alt="1" width=200px height=200px><br/>
- <a href="https://www.lucasvinhtran.com/">Lucas Vinh Tran</a><br/>
+ <a href="https://www.lucasvinhtran.com/" target="_blank" rel="noopener noreferrer">Lucas Vinh Tran</a><br/>
  JPMorganChase
  </td>
  </tr> 
@@ -347,17 +347,17 @@ memory persistence, catastrophic forgetting prevention, evolving user preference
  <tr>
   <td> 
  <img src="/images/people/irwin.jpg" alt="1" width=200px height=200px><br/>
- <a href="https://www.cse.cuhk.edu.hk/irwin.king/">Irwin King</a><br/>
+ <a href="https://www.cse.cuhk.edu.hk/irwin.king/" target="_blank" rel="noopener noreferrer">Irwin King</a><br/>
  CUHK
  </td>
    <td> 
  <img src="/images/people/chuats.jpg" alt="1" width=200px height=200px><br/>
- <a href="https://www.chuatatseng.com/">Tat-Seng Chua</a><br/>
+ <a href="https://www.chuatatseng.com/" target="_blank" rel="noopener noreferrer">Tat-Seng Chua</a><br/>
  NUS
  </td>
     <td> 
  <img src="/images/people/philip.png" alt="1" width=200px height=200px><br/>
- <a href="https://cs.uic.edu/profiles/philip-yu/">Philip S. Yu</a><br/>
+ <a href="https://cs.uic.edu/profiles/philip-yu/" target="_blank" rel="noopener noreferrer">Philip S. Yu</a><br/>
  UIC
  </td>
  </tr> 
@@ -389,7 +389,7 @@ Non-archival means the submissions are not formally published in proceedings.
   <h2>Contact</h2>
 </div>
 
-Feel free to contact us: **personalizationllm@outlook.com** or <img src="/images/slack.png" alt="Slack" style="width: 15px; height: 15px; vertical-align: middle; margin-right: 5px;"> [Slack workspace](https://join.slack.com/t/personalized-llm/shared_invite/zt-3de9e5pjl-iq_e9jb1cu_pYBAh1ickOA)
+Feel free to contact us: **personalizationllm@outlook.com** or <img src="/images/slack.png" alt="Slack" style="width: 15px; height: 15px; vertical-align: middle; margin-right: 5px;"> [Slack workspace](https://join.slack.com/t/personalized-llm/shared_invite/zt-3de9e5pjl-iq_e9jb1cu_pYBAh1ickOA){: target="_blank"}
 
 <div class="section-header" id="news">
   <span class="highlight-icon">🏢</span>
