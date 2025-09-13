@@ -192,7 +192,7 @@ document.addEventListener("DOMContentLoaded", function() {
  <div class="banner-text">
 PerFM Workshop @ AAAI 2026 
 Personalization for Foundation Models  
-Date TBA. Location TBA.
+Date January 27, 2026. Location TBA.
  </div>
 </div>
 
@@ -204,6 +204,7 @@ Date TBA. Location TBA.
 </div>
 
 - 🎉  **2025-09-11**: Website launched and call for contributions open!
+- **Submit your paper:** 🔥🔥🔥 [<span style="color: #8B0000; font-weight: bold;">OpenReview</span>](https://openreview.net/group?id=AAAI.org/2026/Workshop/PerFM)
 - Welcome to join our <img src="/images/slack.png" alt="Slack" style="width: 15px; height: 15px; vertical-align: middle; margin-right: 5px;"> [Slack workspace](https://join.slack.com/t/personalized-llm/shared_invite/zt-3de9e5pjl-iq_e9jb1cu_pYBAh1ickOA)
 
 <div class="section-header" id="1-workshop-introduction">
@@ -211,7 +212,9 @@ Date TBA. Location TBA.
   <h2>Workshop Introduction</h2>
 </div>
 
-While foundation models excel across NLP, computer vision, and multimodal tasks, they cannot capture individual user characteristics—preferences, behavioral patterns, and contextual needs—creating a disconnect between general intelligence and personalized user experience. This workshop "**Personalization in the Era of Large Foundation Models (PerFM 2026)**" will unite researchers and practitioners to explore theoretical foundations, scalable architectures, evaluation methods, lifelong learning, and ethical considerations, **shaping the next generation of AI systems that adapt to and grow with individual users.**
+While foundation models excel across NLP, computer vision, and multimodal tasks, they cannot capture individual user characteristics—preferences, behavioral patterns, and contextual needs—creating a disconnect between general intelligence and personalized user experience. This workshop "**Personalization in the Era of Large Foundation Models (PerFM 2026)**" will unite researchers and practitioners to explore theoretical foundations, scalable architectures, evaluation methods, lifelong learning, and ethical considerations, **shaping the next generation of AI systems that adapt to and grow with individual users.** We welcome original work, recently published work, and work-in-progress.
+
+<div style="text-align: center; margin: 30px 0;"><a href="https://openreview.net/group?id=AAAI.org/2026/Workshop/PerFM" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #1e3a8a !important; color: #ffffff !important; padding: 20px 45px; border-radius: 10px; text-decoration: none !important; font-weight: 700; font-size: 22px; border: none; box-shadow: 0 6px 20px rgba(30, 58, 138, 0.4); transition: all 0.3s ease; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);" onmouseover="this.style.background='#ff6b35'; this.style.color='#ffffff'; this.style.textDecoration='none';" onmouseout="this.style.background='#1e3a8a'; this.style.color='#ffffff'; this.style.textDecoration='none'; this.style.setProperty('color', '#ffffff', 'important');">🔥 Submit Your Paper to PerFM 2026</a></div>
 
 <div class="section-header" id="2-call-for-contributions-topics-and-scope">
   <span class="highlight-icon">📝</span>
@@ -264,7 +267,7 @@ memory persistence, catastrophic forgetting prevention, evolving user preference
 <li><strong>Paper submission deadline</strong>: October 22, 2025</li>
 <li><strong>Author notification</strong>: November 5, 2025</li>
 <li><strong>Camera-ready submission</strong>: TBA</li>
-<li><strong>Workshop date</strong>: TBA (at AAAI 2026)</li>
+<li><strong>Workshop date</strong>: January 27, 2026 (at AAAI 2026)</li>
 </ul>
 </div>
 
@@ -273,21 +276,16 @@ memory persistence, catastrophic forgetting prevention, evolving user preference
 
 <ul>
 <li>Use the <a href="https://aaai.org/authorkit26-1/" target="_blank">AAAI 2026 style file</a> for formatting. </li>
-<li>Submissions should be PDFs of <strong>≤ 8 pages</strong> (excluding references and appendices). </li>
+<li>Submissions should be PDFs of <strong>6-8 pages for full papers</strong> or <strong>2-4 pages for short/position papers</strong> (excluding references and appendices). </li>
 <li><strong>Double-blind</strong> review.</li>
 <li>By default, submissions are <strong>non-archival</strong>.</li>
 <li>Outstanding papers will be selected for lightning talks and a best paper award will be announced at the workshop.</li>
 </ul>
 </div>
 
-We welcome original work, recently published work, and work-in-progress.
 
-**Submission site**: TBA
-
-<div class="section-header" id="4-tentative-schedule-tba">
-  <span class="highlight-icon">🗓️</span>
-  <h2>Tentative Schedule (TBA)</h2>
-</div>
+  <!-- <span class="highlight-icon"></span> -->
+  <h2><span class="highlight-icon">🗓️</span>Tentative Schedule (TBA)</h2>
 
 <!-- Example schedule; uncomment and edit when ready.
 - 8:30–8:50 AM: Poster setup
