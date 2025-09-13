@@ -284,8 +284,10 @@ memory persistence, catastrophic forgetting prevention, evolving user preference
 </div>
 
 
-  <!-- <span class="highlight-icon"></span> -->
-  <h2><span class="highlight-icon">🗓️</span>Tentative Schedule (TBA)</h2>
+<div class="section-header" id="4-tentative-schedule-tba">
+  <span class="highlight-icon">🗓️</span>
+  <h2>Tentative Schedule (TBA)</h2>
+</div>
 
 <!-- Example schedule; uncomment and edit when ready.
 - 8:30–8:50 AM: Poster setup
