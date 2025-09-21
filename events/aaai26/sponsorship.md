@@ -29,6 +29,7 @@ h1 { text-align: center; }
 **Date:** January 27, 2026  
 **Location:** Singapore EXPO, Singapore  
 **Expected Attendance:** 30-50 participants  
+**Expected papers:** 20 poster papers, 5 oral papers
 
 The PerFM Workshop brings together leading researchers, practitioners, and industry experts to explore the intersection of large foundation models and personalization technologies. This one-day intensive workshop will feature cutting-edge research presentations, interactive discussions, and networking opportunities with AI professionals in an intimate, focused setting.
 
@@ -52,8 +53,6 @@ The PerFM Workshop brings together leading researchers, practitioners, and indus
 | **15:10-15:40** | **Poster Session & Discussions** *(Sponsorship Opportunity)* | 30 min |
 | **15:40-16:20** | **Invited Talk 5** | 40 min |
 | **16:20-17:30** | **🎯 Panel Discussion: "Foundation Models Meet Personalization"** | 70 min |
-
-* Poster paper is expected to be 20 papers, around 5 oral papers to present.
 
 ---
 
@@ -262,8 +261,8 @@ Associate your brand with cutting-edge research and innovation
 ### **Q: Can we customize our sponsorship package?**
 A: Yes! We're happy to work with sponsors to create custom packages that meet specific marketing objectives and budget requirements.
 
-### **Q: Are there opportunities for product demonstrations?**
-A: Platinum and Gold sponsors receive booth space suitable for product demonstrations and technical showcases.
+<!-- ### **Q: Are there opportunities for product demonstrations?**
+A: Platinum and Gold sponsors receive booth space suitable for product demonstrations and technical showcases. -->
 
 ### **Q: Can we distribute promotional materials?**
 A: Yes, sponsors can distribute approved promotional materials. All materials must be submitted for review by January 20, 2026.
