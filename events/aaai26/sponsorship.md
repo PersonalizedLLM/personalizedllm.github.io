@@ -244,7 +244,7 @@ Associate your brand with cutting-edge research and innovation
 
 | Milestone | Date |
 |-----------|------|
-| **Early Bird Deadline** | December 15, 2025s |
+| **Early Bird Deadline** | December 15, 2025 |
 | **Final Sponsorship Deadline** | January 10, 2026 |
 | **Materials Submission** | January 20, 2026 |
 | **Workshop Date** | January 27, 2026 |
