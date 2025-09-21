@@ -214,7 +214,7 @@ January 27, 2026
 
 While foundation models excel across NLP, computer vision, and multimodal tasks, they cannot capture individual user characteristics—preferences, behavioral patterns, and contextual needs—creating a disconnect between general intelligence and personalized user experience. This workshop "**Personalization in the Era of Large Foundation Models (PerFM 2026)**" will unite researchers and practitioners to explore theoretical foundations, scalable architectures, evaluation methods, lifelong learning, and ethical considerations, **shaping the next generation of AI systems that adapt to and grow with individual users.** We welcome original work, recently published work, and work-in-progress.
 
-<div style="text-align: center; margin: 30px 0;"><a href="https://openreview.net/group?id=AAAI.org/2026/Workshop/PerFM" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #1e3a8a !important; color: #ffffff !important; padding: 20px 45px; border-radius: 10px; text-decoration: none !important; font-weight: 700; font-size: 22px; border: none; box-shadow: 0 6px 20px rgba(30, 58, 138, 0.4); transition: all 0.3s ease; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);" onmouseover="this.style.background='#ff6b35'; this.style.color='#ffffff'; this.style.textDecoration='none';" onmouseout="this.style.background='#1e3a8a'; this.style.color='#ffffff'; this.style.textDecoration='none'; this.style.setProperty('color', '#ffffff', 'important');">🔥 Submit Your Paper to PerFM 2026</a></div>
+<div style="text-align: center; margin: 30px 0;"><a href="https://openreview.net/group?id=AAAI.org/2026/Workshop/PerFM" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #1e3a8a !important; color: #ffffff !important; padding: 20px 45px; border-radius: 10px; text-decoration: none !important; font-weight: 700; font-size: 22px; border: none; box-shadow: 0 6px 20px rgba(30, 58, 138, 0.4); transition: all 0.3s ease; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);" onmouseover="this.style.background='#ff6b35'; this.style.color='#ffffff'; this.style.textDecoration='none';" onmouseout="this.style.background='#1e3a8a'; this.style.color='#ffffff'; this.style.textDecoration='none'; this.style.setProperty('color', '#ffffff', 'important');"><img src="/images/icon/fire.png" alt="icon" style="width: 50px; height: 50px; vertical-align: middle; margin-right: 8px; display: inline-block;">Submit Your Paper to PerFM 2026</a></div>
 
 <div class="section-header" id="2-call-for-contributions-topics-and-scope">
   <span class="highlight-icon">📝</span>
@@ -391,11 +391,15 @@ Non-archival means the submissions are not formally published in proceedings.
   <h2>Contact</h2>
 </div>
 
-Feel free to contact us: **personalizationllm@outlook.com** or <img src="/images/slack.png" alt="Slack" style="width: 15px; height: 15px; vertical-align: middle; margin-right: 5px;"> [Slack workspace](https://join.slack.com/t/personalized-llm/shared_invite/zt-3de9e5pjl-iq_e9jb1cu_pYBAh1ickOA){: target="_blank"}
+Feel free to contact us: 📧 **personalizationllm@outlook.com** or <img src="/images/slack.png" alt="Slack" style="width: 15px; height: 15px; vertical-align: middle; margin-right: 5px;"> [Slack workspace](https://join.slack.com/t/personalized-llm/shared_invite/zt-3de9e5pjl-iq_e9jb1cu_pYBAh1ickOA){: target="_blank"}
 
 <div class="section-header" id="news">
   <span class="highlight-icon">🏢</span>
   <h2>Sponsors (TBA)</h2>
 </div>
 
-We welcome sponsorship inquiries. Please contact the organizers.
+We welcome sponsorship inquiries and are actively seeking sponsors to support this workshop.
+
+**🎯 [View Detailed Sponsorship Opportunities](/events/aaai26/sponsorship/)**
+
+For sponsorship inquiries, please contact: **personalizationllm@outlook.com**
