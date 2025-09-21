@@ -28,6 +28,7 @@ h1 { text-align: center; }
 
 **Date:** January 27, 2026  
 **Location:** Singapore EXPO, Singapore  
+**Expected Speakers:** 4-6 keynote speakers  
 **Expected Attendance:** 30-50 participants  
 **Expected papers:** 20 poster papers, 5 oral papers
 
