@@ -203,6 +203,7 @@ January 27, 2026
   <h2>News</h2>
 </div>
 
+- 📅 **2025-10-15**: **Deadline Extended!** Abstract submission: October 26, 2025; Paper submission: October 28, 2025
 - 🎉  **2025-09-11**: Website launched and call for contributions open!
 - **Submit your paper:** 🔥🔥🔥 [<span style="color: #8B0000; font-weight: bold;">OpenReview</span>](https://openreview.net/group?id=AAAI.org/2026/Workshop/PerFM){: target="_blank"}
 - Welcome to join our <img src="/images/slack.png" alt="Slack" style="width: 15px; height: 15px; vertical-align: middle; margin-right: 5px;"> [Slack workspace](https://join.slack.com/t/personalized-llm/shared_invite/zt-3de9e5pjl-iq_e9jb1cu_pYBAh1ickOA){: target="_blank"}
@@ -263,9 +264,9 @@ memory persistence, catastrophic forgetting prevention, evolving user preference
 <h3 style="margin-top: 0; margin-bottom: 15px;">⏰ Important Dates <span style="font-size: 0.8em; color: #666;">(AoE Time)</span></h3>
 
 <ul>
-<li><strong>Abstract submission deadline</strong>: October 17, 2025</li>
-<li><strong>Paper submission deadline</strong>: October 22, 2025</li>
-<li><strong>Author notification</strong>: November 5, 2025</li>
+<li><strong>Abstract submission deadline</strong>: <del>October 17, 2025</del> <strong style="color: #d73a49;">October 26, 2025</strong></li>
+<li><strong>Paper submission deadline</strong>: <del>October 22, 2025</del> <strong style="color: #d73a49;">October 28, 2025</strong></li>
+<li><strong>Author notification</strong>: <del>November 5, 2025</del> <strong style="color: #d73a49;">November 12, 2025</strong></li>
 <li><strong>Camera-ready submission</strong>: TBA</li>
 <li><strong>Workshop date</strong>: January 27, 2026 (at AAAI 2026)</li>
 </ul>
