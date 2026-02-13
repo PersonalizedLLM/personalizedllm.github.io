@@ -1,0 +1,39 @@
+# PerFM AAAI 2026 - OpenReview links (fill URL from https://openreview.net/group?id=AAAI.org/2026/Workshop/PerFM)
+# Format: Title	OpenReview URL
+
+# Oral Session 1
+Not All Clients Are Equal: Collaborative Model Personalization on Heterogeneous Multi-Modal Clients	
+Taxonomy-Adaptive Moderation Model with Robust Guardrails for Large Language Models	
+Federated Agent Reinforcement Learning	
+Drift No More? Context Equilibria in Multi-Turn LLM Interactions	
+
+# Oral Session 2
+Dynamic Orthogonal Continual Fine-tuning for Mitigating Catastrophic Forgetting of LLMs	
+Generative Archetype-Grounded Item Representations for Sequential Recommendation	
+
+# Morning Poster
+Preference Descriptions for Dynamic Personalization of Large Language Models	
+A Unified Framework for Prompt Privacy is Elusive and Misleading	
+PersonaAgent with GraphRAG: Community-Aware Knowledge Graphs for Personalized LLM	
+Enhancing Serendipity Recommendation System by Constructing Dynamic User Knowledge Graphs with Large Language Models	
+Domain-Specific LLM Adaptation: Bridging Personalization and Efficiency Through Synthetic Data and Optimization	
+Structured Personalization: Modeling Constraints as Matroids for Data-Minimal LLM Agents	
+LOOM: Personalized Learning Informed by Daily LLM Conversations Toward Long-Term Mastery via a Dynamic Learner Memory Graph	
+ShapLoRA: Allocation of Low-rank Adaption on Large Language Models via Shapley Value Inspired Importance Estimation	
+Personalization of Large Foundation Models for Health Interventions	
+ATLAS: User-Side Personalization and Privacy Protection Against Geolocation Risks in Large Vision–Language Models	
+Controlled Text Generation of DLLMs with Efficient Classifier Guidance	
+
+# Afternoon Poster
+LENS: Learning Architecture Navigator for LLM Agentic Systems	
+Lightweight Inference-Time Personalization for Frozen Knowledge Graph Embeddings	
+FinPerF: Dynamic User Profiling for Personalized Financial News Recommendation	
+T-REX: Transformer-based Category Sequence Generation for Grocery Basket Recommendation	
+Mitigating Conversational Amnesia in Tutoring Agents via Hybrid Memory and Offline Consolidation	
+Hybrid Detection of Machine-Generated Texts in Academic Contexts	
+PolyLingua: Margin-based Inter-class Transformer for Robust Cross-domain Language Detection	
+BiasJailbreak: Analyzing Ethical Biases and Jailbreak Vulnerabilities in Large Language Models	
+SCALE: Upscaled Continual Learning of Large Language Models	
+Enhancing Human-Like Responses in Large Language Models	
+Tiny Personal Critic: A Lightweight Critic for Low-Compute Personalization	
+Learning Without Forgetting: Preserving Reasoning Capabilities in LLMs via Structural Orthogonality	

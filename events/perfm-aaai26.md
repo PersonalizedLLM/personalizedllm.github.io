@@ -339,7 +339,7 @@ memory persistence, catastrophic forgetting prevention, evolving user preference
 </div>
 
 <div class="speaker-card">
-  <div class="speaker-photo"><img src="/images/people/quanyu%20dai.jpeg" alt="Quanyu Dai" width="120" height="120"></div>
+  <div class="speaker-photo"><img src="/images/people/quanyu%20dai.jpg" alt="Quanyu Dai" width="120" height="120" style="object-position: center top;"></div>
   <div class="speaker-info">
     <h3><a href="https://scholar.google.com/citations?user=Q1GGOPoAAAAJ&hl=en" target="_blank" rel="noopener">Dr. Quanyu Dai</a></h3>
     <p><strong>Affiliation:</strong> Huawei Foundation Model Department, Senior Researcher</p>
