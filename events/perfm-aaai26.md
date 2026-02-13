@@ -594,7 +594,6 @@ memory persistence, catastrophic forgetting prevention, evolving user preference
   <li>Huanhuan Ma (UIC, US)</li>
   <li>Yifan Li (CUHK, Hong Kong SAR)</li>
   <li>Jieyong Kim (Yonsei, South Korea)</li>
-  <li>Menglin Yang (HKUST(GZ), China)</li>
   <li>Xiaoyan Zhao (CUHK, Hong Kong SAR)</li>
   <li>Wenhao Yu (CUHK, Hong Kong SAR)</li>
   <li>Italo Luis da Silva (KCL, UK)</li>
