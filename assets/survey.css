@@ -249,10 +249,9 @@
 
 .survey-figure {
   margin: 18px 0 0;
-  padding: 12px;
-  border: 1px solid var(--pf-line);
-  background: #fbfefd;
-  border-top: 3px solid var(--sv-green);
+  padding: 0;
+  border: 0;
+  background: transparent;
 }
 
 .survey-figure img {
@@ -261,7 +260,6 @@
   height: auto;
   max-height: none;
   object-fit: contain;
-  border: 1px solid #dbe9e5;
   border-radius: 8px;
   background: #ffffff;
 }
@@ -411,10 +409,6 @@
   color: var(--sv-gold);
 }
 
-#future .survey-figure {
-  border-top-color: var(--sv-gold);
-}
-
 @media (max-width: 1100px) {
   .survey-shell {
     grid-template-columns: 1fr;
@@ -481,6 +475,6 @@
   }
 
   .survey-figure {
-    padding: 8px;
+    padding: 0;
   }
 }
