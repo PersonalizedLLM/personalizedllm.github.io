@@ -1,0 +1,587 @@
+:root {
+  --pf-bg: #f4f8ff;
+  --pf-surface: #ffffff;
+  --pf-ink: #102341;
+  --pf-muted: #4f6280;
+  --pf-blue: #1f5fd6;
+  --pf-blue-soft: #d9e7ff;
+  --pf-line: #d7e3f7;
+  --pf-chip: #edf3ff;
+}
+
+.page-content {
+  background:
+    radial-gradient(circle at 15% 0%, rgba(31, 95, 214, 0.12), transparent 30%),
+    radial-gradient(circle at 90% 10%, rgba(64, 136, 255, 0.1), transparent 25%),
+    var(--pf-bg);
+}
+
+.page-content > .wrapper {
+  max-width: 1480px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.perfit-page {
+  max-width: 1260px;
+  margin: 0 auto;
+  color: var(--pf-ink);
+  font-family: "Inter", "Avenir Next", "Segoe UI", sans-serif;
+  padding: 28px 0 64px;
+}
+
+.perfit-page .perfit-hero {
+  background: #ffffff;
+  border: 1px solid var(--pf-line);
+  border-radius: 22px;
+  padding: 24px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(23, 76, 164, 0.06);
+}
+
+.perfit-page .perfit-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.perfit-page .perfit-back {
+  text-decoration: none;
+  color: #1e58c8;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.perfit-page .perfit-status {
+  padding: 5px 12px;
+  font-size: 0.82rem;
+  background: var(--pf-chip);
+  border: 1px solid #bfd5ff;
+  border-radius: 999px;
+  color: #1e56b4;
+  font-weight: 600;
+}
+
+.perfit-page .perfit-title-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 12px;
+}
+
+.perfit-page .perfit-title-icon {
+  width: 76px;
+  height: 76px;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+
+.perfit-page h1 {
+  margin: 0;
+  font-size: clamp(1.65rem, 3.4vw, 2.35rem);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.perfit-page .perfit-title-word {
+  font-family: "Times New Roman", "Times", "Nimbus Roman No9 L", serif;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.perfit-page .perfit-subtitle {
+  margin: 14px 0 32px;
+  color: #1f5fd6;
+  font-size: 1.05rem;
+  text-align: left;
+  line-height: 1.85;
+  margin-left: 90px;
+}
+
+.perfit-page .perfit-meta {
+  margin-top: 24px;
+}
+
+.perfit-page .perfit-authors,
+.perfit-page .perfit-affiliations {
+  margin: 0;
+}
+
+.perfit-page .perfit-meta-label {
+  display: inline-block;
+  min-width: 92px;
+  margin-right: 8px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #2f61b4;
+}
+
+.perfit-page .perfit-authors {
+  color: #1f365b;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.9;
+}
+
+.perfit-page .perfit-affiliations {
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px dashed #d7e4f8;
+  color: #5d7292;
+  font-size: 0.93rem;
+  line-height: 1.9;
+}
+
+.perfit-page .perfit-links {
+  margin-top: 16px;
+  display: flex;
+  gap: 9px;
+  flex-wrap: wrap;
+}
+
+.perfit-page .pf-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 8px 14px;
+  border: 1px solid #9fbeef;
+  transition: all 0.2s ease;
+}
+
+.perfit-page .pf-btn-primary {
+  background: var(--pf-blue);
+  color: #fff;
+  border-color: var(--pf-blue);
+}
+
+.perfit-page .pf-btn-ghost {
+  background: #fff;
+  color: #245fc8;
+}
+
+.perfit-page .pf-btn:hover {
+  transform: translateY(-1px);
+}
+
+.perfit-page .pf-btn-icon {
+  width: 14px;
+  height: 14px;
+  flex: 0 0 14px;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+.perfit-page .perfit-teaser {
+  margin-top: 16px;
+  border: 1px solid var(--pf-line);
+  border-radius: 14px;
+  background: #ffffff;
+  padding: 14px;
+}
+
+.perfit-page .perfit-teaser img {
+  display: block;
+  width: 100%;
+  max-width: 920px;
+  max-height: 380px;
+  margin: 0 auto;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 1px solid #d7e6ff;
+  background: #fff;
+}
+
+.perfit-page .perfit-figure-note {
+  margin: 8px 0 0;
+  text-align: center;
+  color: #4a6592;
+  font-size: 0.88rem;
+}
+
+.perfit-page .perfit-grid {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.perfit-page .perfit-stat {
+  background: #fff;
+  border: 1px solid var(--pf-line);
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.perfit-page .perfit-stat h3 {
+  margin: 0 0 4px;
+  color: #1e4f9f;
+  font-size: 0.9rem;
+}
+
+.perfit-page .perfit-stat p {
+  margin: 0;
+  color: #345079;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.perfit-page section {
+  margin-top: 22px;
+  background: #fff;
+  border: 1px solid var(--pf-line);
+  border-radius: 16px;
+  padding: 18px;
+}
+
+.perfit-page h2 {
+  margin: 0 0 10px;
+  color: #143d7f;
+  font-size: 1.3rem;
+  border: 0;
+  padding: 0;
+}
+
+.perfit-page p,
+.perfit-page li {
+  color: #30496f;
+  line-height: 1.85;
+}
+
+.perfit-page ul {
+  margin: 0;
+  padding-left: 1.25em;
+}
+
+.perfit-page .perfit-observation-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.02fr) minmax(0, 1.18fr);
+  grid-template-areas: "lowrank shift";
+  gap: 16px;
+  align-items: start;
+}
+
+.perfit-page .perfit-observation-lowrank {
+  grid-area: lowrank;
+}
+
+.perfit-page .perfit-observation-shift {
+  grid-area: shift;
+}
+
+.perfit-page .perfit-observation {
+  background: #fbfdff;
+  border: 1px solid #d7e3f7;
+  border-radius: 12px;
+  padding: 12px;
+  min-width: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.perfit-page .perfit-observation h3 {
+  margin: 0 0 6px;
+  color: #1e4f9f;
+  font-size: 1rem;
+}
+
+.perfit-page .perfit-observation p {
+  margin: 0 0 10px;
+}
+
+.perfit-page .perfit-observation-intro {
+  margin: 0 0 14px;
+  color: #2c4568;
+}
+
+.perfit-page .perfit-observation-note {
+  margin-top: 10px;
+  color: #4a658f;
+  font-size: 0.9rem;
+}
+
+.perfit-page .perfit-observation-figure {
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.perfit-page .perfit-observation-figure img {
+  max-height: 390px;
+  width: 86%;
+  margin: 0 auto;
+  height: auto;
+  object-fit: contain;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+}
+
+.perfit-page .perfit-observation-figure figcaption {
+  margin-top: 8px;
+  color: #425e8b;
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.perfit-page .perfit-observation-table {
+  flex: 1;
+  min-width: 0;
+}
+
+.perfit-page .perfit-observation .perfit-results {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.perfit-page .perfit-observation-table table {
+  min-width: 0;
+  table-layout: fixed;
+  font-size: 0.88rem;
+}
+
+.perfit-page .perfit-observation-table th,
+.perfit-page .perfit-observation-table td {
+  padding: 7px 8px;
+  white-space: nowrap;
+}
+
+.perfit-page .perfit-cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.perfit-page .perfit-card {
+  background: #f9fbff;
+  border: 1px solid var(--pf-line);
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.perfit-page .perfit-card h3 {
+  margin: 0 0 6px;
+  font-size: 0.96rem;
+  color: #1f4e9a;
+}
+
+.perfit-page .perfit-card p {
+  margin: 0;
+  font-size: 0.93rem;
+}
+
+.perfit-page .perfit-method-figure {
+  margin-top: 12px;
+}
+
+.perfit-page .perfit-method-figure img {
+  max-height: 520px;
+}
+
+.perfit-page .perfit-results {
+  overflow-x: auto;
+  border: 1px solid var(--pf-line);
+  border-radius: 12px;
+  background: #fff;
+}
+
+.perfit-page table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 620px;
+}
+
+.perfit-page th,
+.perfit-page td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #e5edf9;
+  text-align: left;
+}
+
+.perfit-page th {
+  color: #2055ab;
+  background: #f4f8ff;
+  font-weight: 700;
+}
+
+.perfit-page tr:last-child td {
+  border-bottom: 0;
+}
+
+.perfit-page .best {
+  color: #18489b;
+  font-weight: 700;
+}
+
+.perfit-page .perfit-visual-stack {
+  display: grid;
+  gap: 14px;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.perfit-page .perfit-figure-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.perfit-page .perfit-figure-card {
+  margin: 0;
+  border: 1px solid var(--pf-line);
+  border-radius: 12px;
+  background: #fbfdff;
+  padding: 10px;
+}
+
+.perfit-page .perfit-figure-tag {
+  display: inline-block;
+  margin-bottom: 8px;
+  padding: 3px 9px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #1e53ac;
+  border: 1px solid #bfd5ff;
+  border-radius: 999px;
+  background: #eef4ff;
+}
+
+.perfit-page .perfit-figure-card img {
+  display: block;
+  width: 100%;
+  max-height: 300px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 1px solid #dce8fb;
+  background: #fff;
+}
+
+.perfit-page .perfit-figure-card figcaption {
+  margin-top: 8px;
+  color: #425e8b;
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.perfit-page .perfit-cite-wrap {
+  border: 1px solid var(--pf-line);
+  border-radius: 12px;
+  background: #fbfdff;
+}
+
+.perfit-page .perfit-cite-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-bottom: 1px solid #e4ecfb;
+}
+
+.perfit-page .perfit-copy {
+  border: 1px solid #97b6ef;
+  background: #fff;
+  color: #1a4c9f;
+  border-radius: 8px;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.perfit-page .perfit-copy:hover {
+  background: #f2f7ff;
+}
+
+.perfit-page pre {
+  margin: 0;
+  padding: 12px;
+  overflow-x: auto;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  background: transparent;
+}
+
+.perfit-page .perfit-footer {
+  margin-top: 14px;
+  color: #5b739c;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .perfit-page .perfit-grid,
+  .perfit-page .perfit-cards,
+  .perfit-page .perfit-figure-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .perfit-page .perfit-observation-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "lowrank"
+      "shift";
+  }
+
+  .perfit-page .perfit-observation-figure img {
+    min-height: auto;
+    max-height: 420px;
+  }
+
+  .perfit-page .perfit-title-icon {
+    width: 62px;
+    height: 62px;
+  }
+
+  .perfit-page .perfit-subtitle {
+    margin-left: 76px;
+  }
+}
+
+@media (max-width: 640px) {
+  .page-content > .wrapper {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .perfit-page {
+    padding: 16px 0 34px;
+  }
+
+  .perfit-page .perfit-hero {
+    padding: 16px;
+    border-radius: 14px;
+  }
+
+  .perfit-page .perfit-title-row {
+    align-items: flex-start;
+  }
+
+  .perfit-page .perfit-topbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .perfit-page section {
+    padding: 14px;
+    border-radius: 14px;
+  }
+}

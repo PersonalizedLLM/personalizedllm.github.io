@@ -16,7 +16,7 @@ This is the website for Personalized Foundation Models.
 
 ## Papers
 
-- [PerFit](/papers/perfit/){: target="_blank"}
+- [ICLR 2026, ACL'25 WS] [PerFit: Exploring Personalization Shifts in Representation Space of LLMs](/papers/perfit/){: target="_blank"}
 
 <!-- ## Getting Started
 
