@@ -55,14 +55,20 @@
   font-size: 2.2rem;
 }
 
+.survey-page .perfit-title-row {
+  gap: 30px;
+}
+
 .survey-page .perfit-subtitle {
   color: #177464;
+  font-size: 1rem;
   margin-left: 94px;
+  white-space: nowrap;
 }
 
 .survey-title-mark {
-  width: 80px;
-  height: 80px;
+  width: 64px;
+  height: 64px;
   flex: 0 0 auto;
   border: 0;
   border-radius: 0;
@@ -446,12 +452,17 @@
   }
 
   .survey-page .perfit-subtitle {
+    font-size: 0.92rem;
     margin-left: 76px;
   }
 
+  .survey-page .perfit-title-row {
+    gap: 24px;
+  }
+
   .survey-title-mark {
-    width: 62px;
-    height: 62px;
+    width: 52px;
+    height: 52px;
     font-size: 1rem;
   }
 

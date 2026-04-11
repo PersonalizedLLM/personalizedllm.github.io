@@ -18,7 +18,7 @@ permalink: /papers/survey/
       <img class="survey-title-mark" src="/icon.png" alt="Personalized LLM icon">
       <h1>A Survey of Personalized Large Language Models: Progress and Future Directions</h1>
     </div>
-    <p class="perfit-subtitle">A systematic taxonomy of personalized LLMs across prompting, adaptation, alignment, evaluation, and future directions.</p>
+    <p class="perfit-subtitle">&mdash;&mdash; A systematic taxonomy of personalized LLMs across prompting, adaptation, alignment, evaluation, and future directions.</p>
 
     <div class="perfit-meta">
       <p class="perfit-authors">
